@@ -1,0 +1,9 @@
+ionicjs:
+  build: .
+#  image: yfix/ionicjs
+  container_name: yfix_ionicjs
+  ports:
+    - 30084:8080
+  restart: always
+#  volumes:
+#    - .:/app
